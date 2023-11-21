@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>GRADIENTGEN</h1>
+        <div class="gradient-box"></div>
+            <div class="row options">
+                <div class="column direction">
+                    <p>Расположение</p>
+                    <div class="select-box">
+                        <select>
+                            <option value="to top">Вверх</option>
+                            <option value="to right top">Вправо вверх</option>
+                            <option value="to right">Вправо</option>
+                            <option value="to right bottom">Вправо вниз</option>
+                            <option value="to bottom">Вниз</option>
+                            <option value="to left bottom">Влево вниз</option>
+                            <option value="to left">Влево</option>
+                            <option value="to left top">Влево вверх</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="column colors">
+                    <p>Цвета</p>
+                    <div class="inputs">
+                        <input type="color" value="#000000">
+                        <input type="color" value="#aa1313">
+                    </div>
+                </div>
+        </div>
+        <textarea class="row">background: linear-gradient(to top, #000000, #aa1313);</textarea>
+        <div class="row buttons">
+            <button class="copy">Скопировать Код</button>
+
+        </div>
+    </div>
+</body>
+</html>
